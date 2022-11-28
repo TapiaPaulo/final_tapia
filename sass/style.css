@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar .container-fluid {
+  gap: 46%;
+}
+
+.logo {
+  width: 142px;
+  margin-left: 34%;
+}
+
+.background {
+  height: 30em;
+  position: absolute;
+  width: 100%;
+}
+.background img {
+  width: 100%;
+}
+
+.background_h1 {
+  display: block;
+  height: 120px;
+  width: 440px;
+  margin: 0 0 16px 0;
+  max-width: 440px;
+}
+.background_h1 h1 {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  -webkit-text-decoration: none solid rgb(255, 255, 255);
+          text-decoration: none solid rgb(255, 255, 255);
+  text-transform: uppercase;
+  word-spacing: 0px;
+  width: 27%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.card_contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 32px 32px 32px 32px;
+  min-height: auto;
+  min-width: auto;
+  margin-top: 203px;
+}
+.card_contenedor .btn {
+  font-size: 16px;
+  width: 250px;
+  height: 48px;
+  min-width: auto;
+  min-height: auto;
+}
+.card_contenedor h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+p a {
+  text-decoration: none;
+}
+
+/* extraer html */
+.img_cel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+/* tienda html */
+.tienda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  gap: 24px;
+}
+.tienda img:hover {
+  opacity: 0.5;
+}
+.tienda h4 {
+  text-align: center;
+}
+
+/* QR html */
+.contenedor_qr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1%;
+  gap: 4%;
+}
+
+.fondo {
+  display: flex;
+  flex-direction: row;
+}
+.fondo img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fondo h2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15%;
+  font-weight: bold;
+}
+
+/* Revende html */
+.background_2 {
+  width: 100%;
+}
+
+.contenedor_img_revende {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.contenedor_img_revende img {
+  width: 35%;
+}
+
+/*Cards*/
+.card_revende {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+  gap: 4%;
+}
+.card_revende img {
+  width: 50%;
+  height: 50%;
+  margin-left: 22%;
+}
+.card_revende img:hover {
+  opacity: 0.5;
+}
+.card_revende h6 {
+  text-align: center;
+}
+.card_revende p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
